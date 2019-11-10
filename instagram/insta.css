@@ -109,6 +109,7 @@ input{
 .hope{
   padding-bottom: 5px;
 }
+font-family: Helvetica ;
 #button2{
   padding-top: 10px;
 }
@@ -129,7 +130,6 @@ input{
 }
 .dark{
   color:#999999 ;
-  font-family: Helvetica ;
   font-size:14px;
   font-weight: 600;
 }
@@ -162,4 +162,26 @@ input{
   font-family: Helvetica;
   font-size: 15px;
   color: #262626;
+}
+@media(max-width: 800px) {
+  .master{
+    flex-direction: column;
+  }
+  .iphone{
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+  }
+  #bitch{
+    width: 0%;
+  }
+  .sign{
+  }
+}
+
+#facebook:hover{
+  background: #1d8af0;
+}
+#signup:hover{
+  background: #1d8af0;
 }
